@@ -1,0 +1,8 @@
+ports = [
+  {local-port = 25432, container-port = 5432},
+]
+
+selector.image-names = ["postgres"]
+
+[selector.label]
+"com.testcontainers.desktop.service" = "promotions-postgres"
