@@ -4,5 +4,5 @@ ports = [
 
 selector.image-names = ["postgres"]
 
-[selector.label]
+[selector.labels]
 "com.testcontainers.desktop.service" = "promotions-postgres"
